@@ -20,7 +20,7 @@ Una de mis inspiraciones para meterme a desarrollar juegos fue el juego de Fortn
 
 He desarrollado proyectos de paginas web y he intentado juegos para andorid
 
-### Expectativas Profesionales
+### TRABAJO PROFESIONAL
 
 Me gustaria primero trabajar ya sea en un estudio de videojuegos o empresa de desarrollo de software para agarrar experiencia laboral y pulir mis conocimientos
 
@@ -42,7 +42,7 @@ Algunos de mis juegos favoritos son:
 
 1. EA Sports FC⚽
 1. Madden🏈 
-1. Age of empire
+1. FORMULA 1
 1. Microsoft Flight Simulator
 
 ### Deportes:
