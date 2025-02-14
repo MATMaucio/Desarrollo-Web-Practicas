@@ -10,20 +10,21 @@ Edad: 21 años
 
 ## Breve Presentacion
 
-Mi nombre es Mauricio soy estudiante de Ingenieria en desarrollo de Software y Videojuegos. Tengo doble nacionalidad panameño-mexicano. Me gusta mucho el desarrollo de apps,videojuegos,paginas y Me gusta mucho ayudar a los demas y aprender cosas nuevas cada dia.
+Mi nombre es Mauricio soy estudiante de Ingenieria en desarrollo de Software y Videojuegos. Tengo doble nacionalidad panameño-mexicano. Me gusta mucho el desarrollo de apps,videojuegos,paginas.
+Me gusta usar el motor de Unreal Engine
 
 ## Eleccion de Carrera
 
-Elegi estudiar desarrollo de software y videojuegos porque por un lado me gusta mucho el desarrollo de videojuegos y me gustaria aprender a crear mis propios juegos y una de mis inspiraciones para meterme a desarrollar juegos fue el juego de Fortnite.
+Elegi estudiar desarrollo de software y videojuegos porque  me gusta mucho el desarrollo de videojuegos y con lo que llevo de la carrera ya he hecho algunos videojuegos con propositos educativos. 
+Una de mis inspiraciones para meterme a desarrollar juegos fue el juego de Fortnite.
 
-Por otro lado tambien me gusta la creacion de aplicaciones y paginas web ya que yo ya llevo un tiempo dedicandome a esto como independiente y se me hace una rama muy interesante a la que te puede ir muy bien ya que es el futuro.
+He desarrollado proyectos de paginas web y he intentado juegos para andorid
 
 ### Expectativas Profesionales
 
-Me gustaria primero trabajar ya sea en un estudio de videojuegos o empresa de desarrollo de software para agarrar experiencia laboral, pulir mis conocimientos y crear cosas inovadoras y exitosas.
+Me gustaria primero trabajar ya sea en un estudio de videojuegos o empresa de desarrollo de software para agarrar experiencia laboral y pulir mis conocimientos
 
-Despues me gustaria continuar en el sector indepnediente y crear mi propio estudio de desarrollo de juegos o Continuar como freelance haciendo paginas web y desarrollando aplicaciones innovadoras.
-
+Despues me gustaria continuar en el sector indepnediente y crear mi propio estudio de desarrollo de juegos o Continuar como freelance haciendo paginas web y desarrollando aplicaciones.
 # Pasatiempos 🎨
 
 Me gusta pasar mi tiempo libre de varias formas:
@@ -31,6 +32,7 @@ Me gusta pasar mi tiempo libre de varias formas:
 ### Programacion 🖱 
 
 Me gusta meterme a cursos sobre la programacion y estar experimentando dentro de los distintos software para crear aplicacione y paginas web
+Tambien he experimentado en la parte de la creacion de e-commerce pero mas enfocado hacia la creacion o diseño de paginas
 
 ### Videojuegos: 🎮
 
@@ -41,7 +43,7 @@ Algunos de mis juegos favoritos son:
 1. EA Sports FC⚽
 1. Madden🏈 
 1. Age of empire
-1. Farming Simulator
+1. Microsoft Flight Simulator
 
 ### Deportes:
 
@@ -50,7 +52,7 @@ Me gusta tambien la practica de deportes como:
 1. Football Soccer ⚽
 2. Flag Football 🏈
 
-Me gusta realizar todos estos pasatiempos ya que siento que haci puedo estar entretenido y pues como todo esto me gusta siento que es una oportunidad de mejorar mi estado fisico y aprender nuevas habilidaes en el proceso y mejorar los conocimientos que ya tengo y tambien mehacen sentir muy bien tener diversas cosas que hacer.
+He practicado ambos deportes ya que desde pequeño me ha involucrado en la parte de realizar alguna actividad aparte que me gistar verlos y jugarlos
 
 # Datos de Contacto
 
