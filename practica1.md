@@ -6,7 +6,7 @@ Mauricio Arellano Tsimogianis
 
 Edad: 21 años 
 
-![litteTunny](./img/litteTunny.png)
+![YO](./img/YO.png)
 
 ## Breve Presentacion
 
