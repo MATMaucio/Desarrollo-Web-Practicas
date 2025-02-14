@@ -60,9 +60,9 @@ He practicado ambos deportes ya que desde pequeño me ha involucrado en la parte
 
 1. marellanotsimogianis@outlook.com
 
-🍟Discord: 
+🍟Instagram: 
 
-2. MATMaucio #matmaucio
+2. [ENLACE A instagram](https://www.instagram.com/mauricioarellanot/)
 
 🧀GITHUB:
 
