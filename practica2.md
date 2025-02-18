@@ -46,11 +46,11 @@ Las herramientas de infraestructura en la nube permiten a las empresas y desarro
 ![AWS Systems Manager](https://miro.medium.com/max/2000/1*uk-msDGROTrOTtZYMqWdsw.png)
 
 - **AWS CloudTrail**: Registra las actividades del usuario y las llamadas a la API dentro de la organización de AWS. CloudTrail proporciona un registro detallado de las acciones realizadas en la cuenta, lo que facilita la auditoría de seguridad, el monitoreo y la solución de problemas operativos.
-![AWS CloudTrail](hhttps://th.bing.com/th/id/OIF.ChfzaNCKApCe6RYe18sBbg?rs=1&pid=ImgDetMain)
+![AWS CloudTrail](https://miro.medium.com/v2/resize:fit:1358/1*fCIPUuJp631PbNCvnl9hAg.png)
 
 ### Despliegue y Gestión de Infraestructura
 - **AWS CloudFormation**: Permite describir y aprovisionar todos los recursos de la infraestructura utilizando archivos de texto en formato JSON o YAML. CloudFormation automatiza la creación y configuración de los recursos, lo que facilita el despliegue y la gestión de infraestructuras complejas de manera repetible y segura.
-![AWS CloudFormation](https://d1.awsstatic.com/product-marketing/CloudFormation/CloudFormation-Product-Page-Diagram_2020.2ed5ba8f9bfa5edaa480a7e1bc01315ba48759de.png)
+![AWS CloudFormation](https://th.bing.com/th/id/OIP.VSt16l6uoUC8gbk_neJSEwHaFv?rs=1&pid=ImgDetMain)
 
 ## Google Cloud Platform (GCP)
 
