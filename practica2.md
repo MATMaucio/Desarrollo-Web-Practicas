@@ -8,45 +8,45 @@ Las herramientas de infraestructura en la nube permiten a las empresas y desarro
 
 ### Computación
 - **Amazon EC2 (Elastic Compute Cloud)**: Proporciona capacidad de computación escalable en la nube. Los usuarios pueden lanzar y gestionar instancias de servidores virtuales (VMs) y ajustar la capacidad según las necesidades. EC2 ofrece una amplia selección de tipos de instancias optimizadas para diferentes casos de uso, desde aplicaciones de alto rendimiento hasta servidores web básicos.
-![Amazon EC2](https://d1.awsstatic.com/product-marketing/EC2/EC2-Product-Page-Diagram_2020.e647dbcdd752b09a271f5e4b0dd0e145d45e5eb8.png)
+![Amazon EC2](https://www.whizlabs.com/blog/wp-content/uploads/2021/05/Amazon-EC2-Instances-Types-1536x864.png)
 
 - **AWS Lambda**: Permite ejecutar código sin aprovisionar ni gestionar servidores. Los usuarios pagan solo por el tiempo de cómputo consumido y no hay cargos cuando el código no se está ejecutando. Lambda es ideal para aplicaciones sin servidor (serverless) y puede integrarse con otros servicios de AWS para crear soluciones escalables y eficientes.
-![AWS Lambda](https://d1.awsstatic.com/product-marketing/Lambda/Lambda%20Splash.png)
+![AWS Lambda](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/04/25/lambda_architecture_redshift5134-Redshift-Lambda-Architecture.png)
 
 ### Almacenamiento
 - **Amazon S3 (Simple Storage Service)**: Ofrece almacenamiento de objetos escalable y duradero. S3 es ideal para almacenar y recuperar cualquier cantidad de datos desde cualquier lugar. Ofrece una alta durabilidad y disponibilidad, y se utiliza comúnmente para copias de seguridad, almacenamiento de datos estáticos y como un almacenamiento de origen para la distribución de contenido.
-![Amazon S3](https://d1.awsstatic.com/product-marketing/S3/S3-Product-Page-Diagram_2020.05e3628e041b1e6b2d04ae4b04699c882ec7e8a3.png)
+![Amazon S3](https://d2908q01vomqb2.cloudfront.net/4d134bc072212ace2df385dae143139da74ec0ef/2019/02/19/Imagem1_AWS-Storage-Gateway-1.png)
 
 ### Bases de Datos
 - **Amazon RDS (Relational Database Service)**: Facilita la configuración, operación y escalado de bases de datos relacionales en la nube. Soporta varios motores de bases de datos, incluyendo MySQL, PostgreSQL, Oracle, SQL Server y Amazon Aurora. RDS automatiza tareas como parches de software, copias de seguridad y recuperación ante desastres.
-![Amazon RDS](https://d1.awsstatic.com/product-marketing/RDS/RDS-Product-Page-Diagram_2020.06e9cd462d44225267d046d0de9827744b4a60ba.png)
+![Amazon RDS](https://cloudiofy.com/wp-content/uploads/2023/02/aws-rds-databases.png)
 
 - **Amazon DynamoDB**: Es una base de datos NoSQL totalmente gestionada que admite modelos de datos de documentos y de clave-valor. DynamoDB es conocida por su rendimiento de baja latencia y escalabilidad automática, lo que la hace ideal para aplicaciones con altos volúmenes de tráfico y requisitos de baja latencia.
-![Amazon DynamoDB](https://d1.awsstatic.com/product-marketing/DynamoDB/DynamoDB-Product-Page-Diagram_2020.e91c6e82e6b6c14e19c2fe1a2029a0f6bfb8e12f.png)
+![Amazon DynamoDB](https://www.trek10.com/assets/When-Your-Amazon-DynamoDB-or-NoSql-database-Becomes-the-Bottleneck-IMG-2.jpg)
 
 ### Redes
 - **Amazon VPC (Virtual Private Cloud)**: Proporciona una red virtual aislada en la nube de AWS donde se pueden lanzar recursos de AWS en una red definida por el usuario. VPC permite tener un control completo sobre el entorno de red, incluyendo la selección de rangos de IP, la creación de subredes y la configuración de tablas de rutas y gateways de red.
-![Amazon VPC](https://d1.awsstatic.com/product-marketing/VPC/VPC-Product-Page-Diagram_2020.d4623139f4d1a9ad9e0cd0a48e7ad6cf83b02abe.png)
+![Amazon VPC](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210706122706/External_network.png)
 
 - **Amazon CloudFront**: Es una red de entrega de contenido (CDN) que distribuye contenido a los usuarios con baja latencia y altas velocidades de transferencia. CloudFront se integra con otros servicios de AWS, como S3 y EC2, para ofrecer una entrega de contenido rápida y segura.
-![Amazon CloudFront](https://d1.awsstatic.com/product-marketing/CloudFront/CloudFront-Product-Page-Diagram_2020.901b99b896f5f815325d52cc5f9f222b160128ee.png)
+![Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png)
 
 ### Seguridad y Gestión de Identidades
 - **AWS IAM (Identity and Access Management)**: Permite gestionar el acceso a los servicios y recursos de AWS de manera segura. IAM permite crear y gestionar usuarios, grupos y roles, y utilizar políticas de permisos para definir qué acciones pueden realizar los usuarios en los recursos de AWS.
-![AWS IAM](https://d1.awsstatic.com/product-marketing/IAM/IAM-Product-Page-Diagram_2020.b93ebcfd415afdf1a787f230012116a9a4c9b5c3.png)
+![AWS IAM](https://miro.medium.com/v2/resize:fit:1200/1*CgfJAcRlay0O9amULak-fw.png)
 
 - **AWS Config**: Realiza un inventario de todas las configuraciones de los diferentes recursos de AWS y ayuda a mantener el cumplimiento de las políticas de la organización. Config permite monitorear cambios en la configuración y evaluar la conformidad con las directrices internas.
-![AWS Config](https://d1.awsstatic.com/product-marketing/Config/Config-Product-Page-Diagram_2020.8a1ac2a2e92e61608e6fa34296c0e3cd4fbf9f4d.png)
+![AWS Config](https://k21academy.com/wp-content/uploads/2022/04/Record.png)
 
 ### Monitorización y Gestión
 - **Amazon CloudWatch**: Es un servicio de monitorización de los recursos de la nube de AWS y de las aplicaciones que se ejecutan en AWS. CloudWatch recopila y realiza un seguimiento de métricas, archivos de registro y eventos, permite establecer alarmas y reacciona automáticamente a los cambios en los recursos.
-![Amazon CloudWatch](https://d1.awsstatic.com/product-marketing/CloudWatch/CloudWatch-Product-Page-Diagram_2020.deb9b9ac9f26b0d74f72b4b2f8b9294b74684d68.png)
+![Amazon CloudWatch](https://th.bing.com/th/id/OIP._udEsopVvGniMEvu3clOPgHaEY?rs=1&pid=ImgDetMain)
 
 - **AWS Systems Manager**: Un conjunto de herramientas que ayuda a gestionar y automatizar tareas administrativas en los recursos de AWS. Systems Manager proporciona una visión unificada de la infraestructura y facilita la automatización de tareas como parches de software, configuración y despliegue de aplicaciones.
-![AWS Systems Manager](https://d1.awsstatic.com/product-marketing/Systems_Manager/SystemsManager-Product-Page-Diagram_2020.a407faab3a7622ef9cb50996dc98fc7fa495ba49.png)
+![AWS Systems Manager](https://miro.medium.com/max/2000/1*uk-msDGROTrOTtZYMqWdsw.png)
 
 - **AWS CloudTrail**: Registra las actividades del usuario y las llamadas a la API dentro de la organización de AWS. CloudTrail proporciona un registro detallado de las acciones realizadas en la cuenta, lo que facilita la auditoría de seguridad, el monitoreo y la solución de problemas operativos.
-![AWS CloudTrail](https://d1.awsstatic.com/product-marketing/CloudTrail/CloudTrail-Product-Page-Diagram_2020.c0df5c2f14b27f6b1711dc25b01f4b979075f3b5.png)
+![AWS CloudTrail](hhttps://th.bing.com/th/id/OIF.ChfzaNCKApCe6RYe18sBbg?rs=1&pid=ImgDetMain)
 
 ### Despliegue y Gestión de Infraestructura
 - **AWS CloudFormation**: Permite describir y aprovisionar todos los recursos de la infraestructura utilizando archivos de texto en formato JSON o YAML. CloudFormation automatiza la creación y configuración de los recursos, lo que facilita el despliegue y la gestión de infraestructuras complejas de manera repetible y segura.
