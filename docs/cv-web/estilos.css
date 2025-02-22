@@ -1,0 +1,104 @@
+/* Styles for Acerca.html */
+.acerca {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.acerca h2 {
+    color: #00796b;
+}
+
+.acerca p {
+    font-size: 1.1em;
+    color: #004d40;
+}
+
+/* Styles for Contacto.html */
+.contacto {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contacto h2 {
+    color: #e65100;
+}
+
+.contacto p {
+    font-size: 1.1em;
+    color: #bf360c;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto input,
+.contacto textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px;
+    background-color: #e65100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #bf360c;
+}
+
+/* Styles for Habilidades.html */
+.habilidades {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.habilidades h2 {
+    color: #388e3c;
+}
+
+.habilidades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidades li {
+    background-color: #c8e6c9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2e7d32;
+}
+
+/* Styles for Proyecto.html */
+.proyecto {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.proyecto h2 {
+    color: #8e24aa;
+}
+
+.proyecto p {
+    font-size: 1.1em;
+    color: #6a1b9a;
+}
+
+.proyecto .project-item {
+    background-color: #e1bee7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
