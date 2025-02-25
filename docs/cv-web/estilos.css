@@ -1,104 +1,312 @@
-/* Styles for Acerca.html */
-.acerca {
-    background-color: #e0f7fa;
+/* General Styles */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; /* Google Font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* CSS Variables */
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #0056b3;
+    --background-color: #f4f4f4;
+}
+
+/* Applying CSS Variables */
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Identifiers */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#main-content {
     padding: 20px;
-    border-radius: 5px;
 }
 
-.acerca h2 {
-    color: #00796b;
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-.acerca p {
-    font-size: 1.1em;
-    color: #004d40;
+/* Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-/* Styles for Contacto.html */
-.contacto {
-    background-color: #fff3e0;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.contacto h2 {
-    color: #e65100;
-}
-
-.contacto p {
-    font-size: 1.1em;
-    color: #bf360c;
-}
-
-.contacto form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contacto input,
-.contacto textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contacto button {
-    padding: 10px;
-    background-color: #e65100;
+.button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.contacto button:hover {
-    background-color: #bf360c;
+.button:hover {
+    background-color: var(--secondary-color);
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Descendant Selectors */
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#contacto form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contacto form input[type="text"],
+#contacto form input[type="email"],
+#contacto form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Group Selectors */
+h1, h2, h3 {
+    color: #0177ff;
+}
+
+p, ul, ol {
+    margin-bottom: 20px;
+}
+
+button, input[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Styles for Acerca.html */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Styles for Habilidades.html */
-.habilidades {
-    background-color: #e8f5e9;
-    padding: 20px;
-    border-radius: 5px;
+.skills-section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-.habilidades h2 {
-    color: #388e3c;
+.skills-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
 }
 
-.habilidades ul {
+.skills-section ul {
     list-style-type: none;
     padding: 0;
 }
 
-.habilidades li {
-    background-color: #c8e6c9;
+.skills-section ul li {
     margin-bottom: 10px;
+    background-color: #fff;
     padding: 10px;
     border-radius: 5px;
-    color: #2e7d32;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles for Proyecto.html */
+/* Styles for proyecto.html */
+#proyectos {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 .proyecto {
-    background-color: #f3e5f5;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .proyecto h2 {
-    color: #8e24aa;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 .proyecto p {
-    font-size: 1.1em;
-    color: #6a1b9a;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
 }
 
-.proyecto .project-item {
-    background-color: #e1bee7;
-    margin-bottom: 10px;
-    padding: 10px;
+.proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.proyecto a:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Styles for Contacto.html */
+#contacto {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contacto h2 {
+    color: #333;
+}
+
+#contacto p {
+    color: #333;
+}
+
+#contacto a {
+    color: #0066cc;
+}
+
+#contacto form {
+    margin-top: 20px;
+}
+
+#contacto label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contacto button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #004c99;
 }

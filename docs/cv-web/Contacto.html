@@ -1,15 +1,53 @@
-<section id="contacto">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>MAURICIO ARELLANO TSIMOGIANIS</h1>
+            <nav>
+                <ul style="list-style: none; display: flex; justify-content: flex-start; gap: 10px; padding: 0;">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Acerca.html">Acerca</a></li>
+                    <li><a href="Habilidades.html">Habilidades</a></li>
+                    <li><a href="proyecto.html">Proyectos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="contacto" class="container">
             <h2>Contacto</h2>
-            <p>Email: marellanotsimogianis@outlook.com</p>
-            <p>Teléfono: 5554641432</p>
-            <p>Redes Sociales: <a href="https://www.instagram.com/mauricioarellanot/">Instagram</a>, <a href="https://www.facebook.com/share/1579yhb7Jg/">Facebook</a></p>
+            <p>Email: <a href="mailto:marellanotsimogianis@outlook.com">marellanotsimogianis@outlook.com</a></p>
+            <p>Teléfono: <span>5554641432</span></p>
+            <p>Redes Sociales: 
+                <a href="https://www.instagram.com/mauricioarellanot/">Instagram</a>, 
+                <a href="https://www.facebook.com/share/1579yhb7Jg/">Facebook</a>
+            </p>
             <form>
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name">
+                
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
+                
                 <label for="message">Mensaje:</label>
                 <textarea id="message" name="message"></textarea>
+                
                 <button type="submit">Enviar</button>
             </form>
         </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2023 Mauricio Arellano Tsimogianis. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
