@@ -62,21 +62,56 @@ function aplicarDescuento(total) {
 let imprimirDescuento = aplicarDescuento(imprimirTotal);
   //console.log(`Venta con Descuento del 10%: $${imprimirDescuento}`);
 
-  //5. Simular el Proceso de Compra
-function procesarCompra() {
-    console.log("Procesando compra...");
-    setTimeout(function () {
-    let total = calcularTotal();
-    total = aplicarDescuento(total);
-    console.log(`Compra completada. Total a pagar: $${total.toFixed(2)}`);
-    }, 3000);
-}
+//5. Simular el Proceso de Compra
+const procesarCompra = () => {
+  console.log("Procesando compra...");
+  let tiempoRestante = 3;
+  const intervalo = setInterval(() => {
+      if (tiempoRestante > 0) {
+          console.log(`Tiempo para finalizar la compra ${tiempoRestante}...`);
+          tiempoRestante--;
+      } else {
+          clearInterval(intervalo);
+          let total = calcularTotal();
+          total = aplicarDescuento(total);
+          console.log(`Compra completada. Total a pagar: $${total.toFixed(2)}`);
+      }
+  }, 1000);
+};
+
+const eliminarDelCarrito = (productoNombre, cantidad) => {
+  for (let i = 0; i < carrito.length; i++) {
+      if (carrito[i].nombre === productoNombre) {
+          if (carrito[i].cantidad >= cantidad) {
+              carrito[i].cantidad -= cantidad;
+              if (carrito[i].cantidad === 0) {
+                  carrito.splice(i, 1);
+              }
+              for (let producto of productos) {
+                  if (producto.nombre === productoNombre) {
+                      producto.stock += cantidad;
+                      break;
+                  }
+              }
+              console.log(`* ${cantidad} ${productoNombre}(s) eliminado(s) del carrito.`);
+              console.log(productos);
+              console.log(carrito);
+              console.log("***************************");
+              return;
+          } else {
+              console.log(`No hay suficiente cantidad del producto "${productoNombre}" en el carrito.`);
+              return;
+          }
+      }
+  }
+  console.log(`El producto "${productoNombre}" no está en el carrito.`);
+};
 
 
-
-  //6. Ejecuta el Código:
+  //7. Ejecuta el Código:
 agregarAlCarrito("Sombrero", 10);
 agregarAlCarrito("Zapatos", 3);
 agregarAlCarrito("Sombrero", 10);
 agregarAlCarrito("Zapatos", 8);
+eliminarDelCarrito("Sombrero", 5);
 procesarCompra();
