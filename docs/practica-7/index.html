@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store Simulator</title>
+    <link rel="stylesheet" href="./CSS/styles.css"> <!-- Opcional: agregar estilos -->
+</head>
+<body>
+    <header>
+        <h1>Online Store Simulator</h1>
+    </header>
+    <div class="container">
+        <div class="product" data-nombre="Product 1" data-precio="10">
+            <h3>Product 1</h3>
+            <p>Price: $10</p>
+            <button class="producto">Add to Cart</button>
+        </div>
+        <div class="product" data-nombre="Product 2" data-precio="20">
+            <h3>Product 2</h3>
+            <p>Price: $20</p>
+            <button class="producto">Add to Cart</button>
+        </div>
+        <div class="product" data-nombre="Product 3" data-precio="30">
+            <h3>Product 3</h3>
+            <p>Price: $30</p>
+            <button class="producto">Add to Cart</button>
+        </div>
+        <div id="carrito">
+            <h3>Shopping Cart</h3>
+            <ul id="lista-carrito"></ul>
+            <p><strong>Total:</strong> $<span id="total-carrito">0</span></p>
+            <button id="btn-compra">Complete Purchase</button>
+            <p id="mensaje-compra" class="hidden">Thank you for your purchase!</p>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div id="loader" class="hidden"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
