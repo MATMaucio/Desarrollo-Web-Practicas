@@ -5,3 +5,5 @@
 1. [practica1.md](/practica1.md)
 2. [practica2.md](/practica2.md)
 3. [practica3](https://matmaucio.github.io/Desarrollo-Web-Practicas/cv-web/index.html)
+4. [practica6](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-6/)
+5. [practica7](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-7/)
