@@ -7,3 +7,5 @@
 3. [practica3](https://matmaucio.github.io/Desarrollo-Web-Practicas/cv-web/index.html)
 4. [practica6](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-6/)
 5. [practica7](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-7/)
+6. [practica8](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-8/)
+7. [practica9](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-9/)
