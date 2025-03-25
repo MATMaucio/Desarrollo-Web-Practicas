@@ -1,0 +1,103 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9; /* Fondo más claro */
+    color: #444; /* Texto más oscuro */
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header y navegación */
+header {
+    background-color: #3a86ff; /* Azul vibrante */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Sección de registro */
+.registro-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.registro-section h2 {
+    color: #3a86ff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+/* Estilos del formulario */
+input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3a86ff;
+    box-shadow: 0 0 5px rgba(58, 134, 255, 0.5);
+}
+
+.btn-submit {
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 20px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #265d9f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #555;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .registro-section {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Tienda Usando FakeApi</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Simulador de Tienda Usando FakeApi</h1>
+  </header>
+  <main class="main-content">
+    <!-- Sección de Productos -->
+    <section id="products" class="products-section" aria-labelledby="products-title">
+      <h2 id="products-title" class="section-title">Productos Disponibles</h2>
+      <div class="products-container" role="list">
+        <!-- Los productos se cargarán dinámicamente aquí -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Ícono del Carrito -->
+  <div id="cart-icon" class="cart-icon" aria-label="Abrir carrito">
+    🛒
+    <span id="cart-count" class="cart-count">0</span>
+  </div>
+
+  <!-- Contenedor del Carrito -->
+  <aside id="carrito" class="cart-section hidden" aria-labelledby="cart-title" role="dialog">
+    <h2 id="cart-title" class="section-title">Carrito de Compras</h2>
+    <ul id="lista-carrito" class="cart-list" role="list"></ul>
+    <div class="cart-summary">
+      <p>Total: $<span id="total-carrito">0</span></p>
+      <button id="btn-compra" class="btn" aria-label="Finalizar Compra">Finalizar Compra</button>
+    </div>
+    <div id="mensaje-compra" class="hidden" role="alert">
+      <p>Procesando compra...</p>
+      <div class="loader" aria-hidden="true"></div>
+    </div>
+  </aside>
+
+  <footer class="footer" aria-label="Pie de página">
+    <p>&copy; 2025 Simulador de Tienda. Todos los derechos reservados.</p>
+    <ul class="social-links">
+      <li><a href="#" aria-label="Facebook">Facebook</a></li>
+      <li><a href="#" aria-label="Twitter">Twitter</a></li>
+      <li><a href="#" aria-label="Instagram">Instagram</a></li>
+    </ul>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>

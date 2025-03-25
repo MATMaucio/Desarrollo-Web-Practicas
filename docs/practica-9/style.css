@@ -1,0 +1,75 @@
+/* Ícono del carrito */
+.cart-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9a3fb5;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    background-color: #ca1484;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+
+/* Contenedor del carrito */
+.cart-section {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 999;
+    display: none; /* Oculto por defecto */
+}
+
+.cart-section h2 {
+    margin-top: 0;
+    color: #24588b;
+}
+
+/* Mostrar el carrito cuando esté activo */
+.cart-section.active {
+    display: block;
+}
+
+/* Loader */
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #9a3fb5;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+/* Clase para ocultar elementos */
+.hidden {
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
