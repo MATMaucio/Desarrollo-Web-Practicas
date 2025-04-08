@@ -9,4 +9,4 @@
 5. [practica7](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-7/)
 6. [practica8](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-8/)
 7. [practica9](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-9/)
-7. [practica10](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-10/)
+7. [practica10](/docs/Practica-10/tienda-online.md)
