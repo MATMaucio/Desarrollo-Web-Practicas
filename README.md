@@ -10,3 +10,4 @@
 6. [practica8](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-8/)
 7. [practica9](https://matmaucio.github.io/Desarrollo-Web-Practicas/practica-9/)
 7. [practica10](/docs/Practica-10/tienda-online.md)
+7. [practica11](/docs/practica-11/modelado-tienda.md)
