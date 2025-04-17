@@ -6,18 +6,18 @@ TechZone es una tienda en línea especializada en la venta de productos tecnoló
 
 ## Inventario de Productos
 
-| ID Producto | Nombre del Producto       | Descripción                                     | Precio (USD) | Stock Disponible |
-|-------------|---------------------------|-------------------------------------------------|--------------|------------------|
-| 001         | Crema Hidratante Facial   | Crema hidratante para todo tipo de piel con ácido hialurónico. | 25           | 50               |
-| 002         | Paleta de Sombras         | Paleta de sombras con 12 colores altamente pigmentados. | 20           | 30               |
-| 003         | Labial Mate               | Labial de larga duración con acabado mate en tonos variados. | 15           | 100              |
-| 004         | Sérum Antiedad            | Sérum con vitamina C para reducir líneas de expresión y manchas. | 30           | 40               |
-| 005         | Esmalte de Uñas           | Esmalte de uñas resistente con colores vibrantes. | 10           | 200              |
-| 006         | Crema para Manos          | Crema hidratante para manos con aroma a lavanda. | 12           | 60               |
-| 007         | Mascarilla Facial         | Mascarilla de arcilla para limpieza profunda de la piel. | 18           | 80               |
-| 008         | Delineador Líquido        | Delineador líquido de alta precisión y larga duración. | 10           | 150              |
-| 009         | Brochas de Maquillaje     | Set de 10 brochas de maquillaje de alta calidad. | 25           | 40               |
-| 010         | Tónico Facial             | Tónico refrescante con extracto de té verde para piel sensible. | 15           | 70               |
+| ID Producto | Nombre del Producto       | Descripción                                     | Categoría          | Marca          | Precio (USD) | Stock Disponible |
+|-------------|---------------------------|-------------------------------------------------|--------------------|----------------|--------------|------------------|
+| 001         | Crema Hidratante Facial   | Crema hidratante para todo tipo de piel con ácido hialurónico. | Cuidado Facial    | SkinCarePro    | 25           | 50               |
+| 002         | Paleta de Sombras         | Paleta de sombras con 12 colores altamente pigmentados. | Maquillaje         | BeautyColors   | 20           | 30               |
+| 003         | Labial Mate               | Labial de larga duración con acabado mate en tonos variados. | Maquillaje         | GlamLips       | 15           | 100              |
+| 004         | Sérum Antiedad            | Sérum con vitamina C para reducir líneas de expresión y manchas. | Cuidado Facial    | DermaGlow      | 30           | 40               |
+| 005         | Esmalte de Uñas           | Esmalte de uñas resistente con colores vibrantes. | Cuidado de Uñas    | NailArtPro     | 10           | 200              |
+| 006         | Crema para Manos          | Crema hidratante para manos con aroma a lavanda. | Cuidado Corporal   | SoftTouch      | 12           | 60               |
+| 007         | Mascarilla Facial         | Mascarilla de arcilla para limpieza profunda de la piel. | Cuidado Facial    | PureSkin       | 18           | 80               |
+| 008         | Delineador Líquido        | Delineador líquido de alta precisión y larga duración. | Maquillaje         | EyeDefine      | 10           | 150              |
+| 009         | Brochas de Maquillaje     | Set de 10 brochas de maquillaje de alta calidad. | Accesorios         | ProBrush       | 25           | 40               |
+| 010         | Tónico Facial             | Tónico refrescante con extracto de té verde para piel sensible. | Cuidado Facial    | GreenCare      | 15           | 70               |
 
 ## Moodboard
 ![Moodboard](/docs/Practica-10/IMG/tIENDAONLINE.png)
