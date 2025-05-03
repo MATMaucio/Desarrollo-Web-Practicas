@@ -48,5 +48,42 @@
 - **Detalle_Pedido** (N) — (1) **Producto**
 - **Pedido** (1) — (1) **Método_Pago**
 
+## Reglas de Negocio
+
+1. **Gestión de Inventario**: 
+   - No se permite realizar pedidos de productos cuyo stock sea igual a 0.
+   - El stock de un producto se actualiza automáticamente después de confirmar un pedido.
+
+2. **Política de Precios**:
+   - Los precios de los productos incluyen impuestos.
+   - Los descuentos o promociones deben aplicarse antes de confirmar el pago.
+
+3. **Registro de Clientes**:
+   - Un cliente debe estar registrado para realizar un pedido.
+   - Los datos del cliente deben ser válidos y completos (nombre, correo, dirección, etc.).
+
+4. **Procesamiento de Pedidos**:
+   - Un pedido no puede ser procesado si no tiene al menos un producto en el carrito.
+   - Los pedidos deben incluir un método de pago válido.
+
+5. **Métodos de Pago**:
+   - Solo se aceptan métodos de pago previamente configurados (Tarjeta de crédito, PayPal, etc.).
+   - El pago debe ser confirmado antes de generar la orden de compra.
+
+6. **Envío de Pedidos**:
+   - Los pedidos solo se envían a direcciones válidas proporcionadas por el cliente.
+   - Se debe generar un número de seguimiento para cada pedido enviado.
+
+7. **Cancelación de Pedidos**:
+   - Un pedido puede ser cancelado solo si no ha sido enviado.
+   - Al cancelar un pedido, el stock de los productos debe ser restablecido.
+
+8. **Notificaciones**:
+   - El cliente debe recibir un correo electrónico con la confirmación del pedido y los detalles del envío.
+   - En caso de problemas con el inventario o el pago, el cliente debe ser notificado inmediatamente.
+
 ## Imagen de Modelo Entidad Relacion
 ![Moodboard](/docs/practica-11/IMG/Diagrama%20en%20blanco.png)
+
+## Imagen de Modelo Entidad Relacion
+![Supabase](/docs/practica-11/IMG/Supabase.png)
